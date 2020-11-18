@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.app{
+  margin-top: 30px;
+margin-left:50px;
+display: flex;
+flex-direction: row;
+}
+.plus{
+margin-top: 5px;
+margin-right: 5px;
+height: 37px;
+align-content: center;
+width:45px;
+background-color:palevioletred;
+border: solid 2px palevioletred;
+background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Plus_symbol.svg/500px-Plus_symbol.svg.png');
+font-size:small;
+background-size: 30px 30px;
+background-repeat: no-repeat;
+background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.minus{
+margin-top: 5px;
+margin-right: 5px;
+height: 37px;
+align-items: center;
+width:45px;
+background-color: white;
+border:solid 2px lightseagreen;
+background-image: url('https://th.bing.com/th/id/OIP.g0-am0SZWzLQsXBn6OIvLAAAAA?pid=Api&rs=1');
+background-size: 30px 30px;
+background-repeat: no-repeat;
+background-position: center;
+font-size:small;}
+
+
+
+.clear{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 5px;
+  height: 37px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  width:45px;
+  background-color: white;
+  border:solid 2px green;
+  background-image: url('https://images.vexels.com/media/users/3/127015/isolated/lists/729a0c61769fa8125355ca7526f2d949-recycling-symbol-circle2-svg.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size:small;}
+  .flex{
+    display: flex;
+    flex-direction: row;
   }
-  to {
-    transform: rotate(360deg);
+
+  .img{
+    margin-left: 2px; 
+    width: 30px;
+    height: 40px;
   }
+
+  .lc{
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  
+
+.number{
+  margin: 5px;
+  padding: 1px;
+  height: 30px;
+  text-align: center;
+  width:30px;  
+  background-color: yellow;
+  border:solid 2px yellow;
+  font-size:x-large;
+  color:black;
 }
